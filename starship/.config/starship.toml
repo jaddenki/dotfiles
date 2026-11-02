@@ -1,0 +1,10 @@
+add_newline = false
+format = "$directory$git_branch$git_status$line_break$character"
+[directory]
+style = "bold cyan"
+truncation_length = 3
+[git_branch]
+symbol = " "
+[character]
+success_symbol = "[❯](green)"
+error_symbol = "[❯](red)"

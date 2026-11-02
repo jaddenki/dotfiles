@@ -1,0 +1,9 @@
+theme = dark:jamms Dark, light:jamms Light
+background-opacity = 0.9
+background-blur=16
+minimum-contrast = 3
+
+window-show-tab-bar = always
+unfocused-split-opacity = 0.6
+font-family = JetBrains Mono
+copy-on-select = clipboard
