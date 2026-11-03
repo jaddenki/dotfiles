@@ -26,14 +26,11 @@
       "position": "right"
     },
     "dock": "right",
-    "sandbox_permissions": {
-      "allow_unsandboxed": true
-    },
     "tool_permissions": {
-      "default": "allow",
+      "default": "confirm",
       "tools": {
         "terminal": {
-          "default": "allow"
+          "default": "confirm"
         }
       }
     },
