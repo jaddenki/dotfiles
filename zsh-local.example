@@ -1,0 +1,7 @@
+# Copy to ~/.zshrc.local and customize
+
+# Personal directories
+# alias coding='cd ~/Documents/coding'
+
+# Optional machine-specific setup
+# export MY_TOOL_HOME="$HOME/some-tool"

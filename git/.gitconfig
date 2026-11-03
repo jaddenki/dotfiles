@@ -3,6 +3,5 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[user]
-	name = jadden picardal
-	email = 65794115+jaddenki@users.noreply.github.com
+[include]
+    path = ~/.gitconfig.local

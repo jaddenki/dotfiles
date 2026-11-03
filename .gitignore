@@ -5,3 +5,19 @@
 *.pem
 *.key
 secrets/
+
+# Local settings
+.zshrc.local
+.gitconfig.local
+*.local
+
+# Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# macOS
+.DS_Store

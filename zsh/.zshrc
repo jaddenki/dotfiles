@@ -1,21 +1,5 @@
 export PATH="$HOME/.local/bin:$PATH"
 
-# bun completions
-[ -s "/Users/jaja/.bun/_bun" ] && source "/Users/jaja/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-
-# opencode
-export PATH=/Users/jaja/.opencode/bin:$PATH
-
-# Prefer Homebrew python3 over Apple's deprecated /usr/bin/python3
-export PATH="/opt/homebrew/bin:$PATH"
-
-# Unity CLI
-. "/Users/jaja/.unity/env"
-
 # yarn spinner ysc
 export DOTNET_ROOT="/opt/homebrew/opt/dotnet/libexec"
 export DOTNET_ROLL_FORWARD=Major
@@ -39,9 +23,6 @@ fi
 # dev
 alias lg='lazygit'
 alias c='clear'
-alias coding='cd ~/Documents/coding'
-alias school='cd ~/Documents/coding/school'
-alias jamms='cd ~/Documents/coding/jamms'
 
 # git
 alias gs='git status'
@@ -72,3 +53,5 @@ function y() {
   rm -f "$tmp"
   return "$status"
 }
+# Load machine-specific settings
+[[ -f "$HOME/.zshrc.local" ]] && source "$HOME/.zshrc.local"
